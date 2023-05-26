@@ -27,6 +27,7 @@ print(message)
 print("I'm so sorry that i can only invite two persons cause the table can't be deliver in time ")
 popped_people_1 = people.pop(0)
 print("I'm so sorry that i can't invite you to my dinner, " + popped_people_1.title())
+print(len(people))
 popped_people_2 = people.pop(0)
 print("I'm so sorry that i can't invite you to my dinner, " + popped_people_2.title())
 popped_people_3 = people.pop(0)
@@ -34,6 +35,7 @@ print("I'm so sorry that i can't invite you to my dinner, " + popped_people_3.ti
 popped_people_4 = people.pop(0)
 print("I'm so sorry that i can't invite you to my dinner, " + popped_people_4.title())
 print(people) #直至只有两位嘉宾
+print(len(people))
 
 message = "Hello " + people[0].title() +  ", I want to invite all of you to come to my dinner"
 print(message)
